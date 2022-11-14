@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fe7202;
+  border-radius: 10px;
+  border: 4px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+.modal-css {
+  transform: translateY(-50%, -50%);
+}
+
+.slider-container article {
+  display: grid !important;
+  width: 100% !important;
+  margin: 2rem auto;
+}
+
+
+.slick-slide>div {
+  margin: 0 10px;
+  padding: 40px 0;
+}
+
+
+
+.slick-slider .slick-dots button:before {
+  font-size: 1.5rem;
+  color: teal;
+}
+
+.slick-slider .slick-dots li.slick-active button::before {
+  color: teal;
+}
+
+.slick-slider .slick-dots {
+  bottom: -44px;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0 0.5rem;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
